@@ -77,9 +77,9 @@ input:checked {
   flex-grow: 0;
 }
 
-.form-habits {
+form {
   display: flex;
-  padding: 128px 0 48px;
+  padding: 182px 0 48px 48px;
   width: fit-content;
 }
 
@@ -97,4 +97,10 @@ input:checked {
   justify-content: center;
   width: 64px;
   height: 64px;
+}
+
+@media (max-width: 570px) {
+  button div {
+    display: none;
+  } 
 }

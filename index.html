@@ -18,37 +18,24 @@
       <img src="./assets/logo.svg" alt="logo" />
 
       <button>
-        <img src="./assets/plus.svg" class="plus" />Registrar meu dia
+        <img src="./assets/plus.svg" class="plus" />
+        <div>
+        Registrar meu dia
+        </div>
       </button>
     </header>
 
-    <form id="form-habits">
+    <form>
       <div class="habits">
-        <div class="habit">🏃‍♂️</div>
-        <div class="habit">💧</div>
-        <div class="habit">🍎</div>
-        <div class="habit">📚</div>
+        <div class="habit" data-name="run">🏃🏽‍♂️</div>
+        <div class="habit" data-name="water">💧</div>
+        <div class="habit" data-name="food">🍎</div>
+        <div class="habit" data-name="books">📚</div>
+          <div class="habit" data-name="medication">💊</div>
       </div>
 
-
-      <div class="days">
-        <div class="day">
-          <div>03/01</div>
-          <input type="checkbox" data-name="run" />
-          <input type="checkbox" data-name="water" />
-          <input type="checkbox" data-name="food" />
-          <input type="checkbox" data-name="read" />
-        </div>
-
-        <div class="days">
-        <div class="day">
-          <div>04/01</div>
-          <input type="checkbox" data-name="run" />
-          <input type="checkbox" data-name="water" />
-          <input type="checkbox" data-name="food" />
-          <input type="checkbox" data-name="read" />
-        </div>
-      </form>
+  <div class="days"></div>
+</form>
 
     </div>
 
